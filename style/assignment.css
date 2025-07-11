@@ -133,7 +133,8 @@ justify-content: center;
     display: flex;
     gap: 20px;
     padding: 24px;
-    justify-content: center;  
+    justify-content: center; 
+    background-color: #fafcff; 
 
 }
 .feedback{
@@ -145,4 +146,61 @@ justify-content: center;
     text-align: center;
     font-weight: bold;
     font-size: 42px;
+}
+.color{
+    background-color: #f5f8ff;
+}  
+.form{
+    padding: 612px 200px;
+    display: flex;
+    gap: 115px;
+}
+.form-column{
+    width: 50%;
+}
+form input[type="text"]{
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 32px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.form-header{
+    font-size: 97px;
+    font-weight: bold;
+}
+form input[type="email"]{
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 32px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+form textarea{
+     height: 70px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 32px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.btn-third{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 19px 101px;
+    border-radius: 10px;
+    border: none;
 }
