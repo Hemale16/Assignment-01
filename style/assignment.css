@@ -12,7 +12,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 210px;
+    margin: 50px 200px;
     
 }
 
@@ -35,24 +35,19 @@ nav ul{
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
-    font-size: 20px;
+   font-size: 20px;
     color: white;
-    padding: 12px 36px;
     border-radius: 10px;
     list-style: none;
-    justify-content: center;
-    list-style: none;
-    margin: 78px 309px;
+    margin: 78px 305px;
     border: none;
+    padding: 12px 30px;
 
 }
 .banner-greetings{
     font-weight: 700;
     font-size: 75px;
     align-content: center;
-    
-
-
 }
 .banner-content{
 margin: 20px 500px;
@@ -61,7 +56,45 @@ justify-content: center;
 
 .header{
     background-image: url(../Assets/Hero-bg.png);
-    margin: 0 ;
-
     
+    justify-content: center;
+}
+.dark-2{
+    color: #252432;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-profile-pic{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    margin: 20px 159px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 159px 0 250px;
+    align-items: center;
+    
+}
+
+.action-title{
+    font-size: 48px;
+    
+}
+.action-content{
+    max-width: 517px;
+    margin: 0 35px 0 200px;
+}
+.btn-secondary{
+    background-color: #4E47FF;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 229px;
+    height: 48px;
+    font-weight: bold;
 }
