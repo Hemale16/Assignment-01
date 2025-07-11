@@ -21,7 +21,15 @@ nav{
     font-size: 45px;
     color: #4E47FF;
 }
-
+.btn-primary:hover{
+    background-color: yellow;
+}
+.btn-secondary:hover{
+    background-color: yellow;
+}
+.btn-third:hover{
+    background-color: yellow;
+}
 nav ul li{
     list-style: none;
     margin-right: 80px;
@@ -203,4 +211,45 @@ form textarea{
     padding: 19px 101px;
     border-radius: 10px;
     border: none;
+}
+.logo-title{
+    font-size: 150px;
+    font-weight: bolder;
+    color: #4E47FF;
+    width: 291px;
+    height: 121px;
+}
+.logo-description{
+    color: #8987A1;
+    font-size: 100%;   
+}
+.logo{
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+footer{
+ 
+    margin: 0 auto;
+    max-width: 660px;
+    text-align: center;
+    margin-top: 130px;
+}
+ul li a{
+    font-size: 100%;
+    color: #8987A1;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.lego{
+    font-size: 100%;
+    color: #8987A1;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
