@@ -42,6 +42,7 @@ nav ul{
     margin: 78px 305px;
     border: none;
     padding: 12px 30px;
+    margin-right: auto;
 
 }
 .banner-greetings{
@@ -97,4 +98,15 @@ justify-content: center;
     width: 229px;
     height: 48px;
     font-weight: bold;
+}
+.caption{
+    width: 856px;
+    height: 45px;
+    font-size: 38px;
+    font-weight: bold;
+}
+.user-section{
+    
+    
+    justify-content: center;
 }
