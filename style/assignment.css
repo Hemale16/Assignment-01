@@ -253,3 +253,16 @@ ul li a{
     display: flex;
     justify-content: space-between;
 }
+.head{
+    margin-top: 250px;
+}
+.about{
+    margin-top: 250px;
+}
+.header{
+    margin-bottom: 50px;
+}
+.action-description{
+    color: #252432;
+    font-size: 24px;
+}
